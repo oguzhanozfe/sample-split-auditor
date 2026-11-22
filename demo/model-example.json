@@ -1,0 +1,19 @@
+{
+  "model": "gemma-4-e4b-it",
+  "provider": "local",
+  "source_sha256": "ccf22bd72af04c0f89c6b71bbfb741b20452fb1954306db1496277ff34e2afb6",
+  "considered": 6,
+  "total": 6,
+  "recommendations": [
+    {
+      "id": "assign:7:actor-c:test",
+      "evidence_id": "c01",
+      "why": "The strong positive score delta (4.0) indicates that moving this group to the test set is highly beneficial for managing leakage and optimizing stratification tradeoffs."
+    },
+    {
+      "id": "assign:7:actor-a:test",
+      "evidence_id": "a01",
+      "why": "The positive score delta (1.2) suggests that moving this group to the test set is a preferred alternative compared to its current split, addressing potential leakage."
+    }
+  ]
+}

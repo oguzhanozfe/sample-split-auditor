@@ -2,11 +2,13 @@
 
 Audit group overlap across machine-learning splits and export a group-intact repaired manifest with class-balance measurements.
 
-[![Verify](https://github.com/oguzhanozfe/sample-split-auditor/actions/workflows/check.yml/badge.svg)](https://github.com/oguzhanozfe/sample-split-auditor/actions/workflows/check.yml) · [Deploy to Render](https://render.com/deploy?repo=https://github.com/oguzhanozfe/sample-split-auditor) · [Input guide](GUIDE.md)
+**[Open the live demo](https://oguzhanozfe.github.io/sample-split-auditor/)** · [![Verify](https://github.com/oguzhanozfe/sample-split-auditor/actions/workflows/check.yml/badge.svg)](https://github.com/oguzhanozfe/sample-split-auditor/actions/workflows/check.yml) · [Deploy to Render](https://render.com/deploy?repo=https://github.com/oguzhanozfe/sample-split-auditor) · [Input guide](GUIDE.md)
 
 Samples from the same actor appear in training and evaluation. Regroup the records, then inspect what the repair does to class proportions.
 
 ![Example result for Sample Split Auditor](docs/result.png)
+
+The live demo lets you edit the input, search proposed changes with an on-device model and download the result. [Browser demo details](demo/DEMO.md)
 
 ## Try it
 
