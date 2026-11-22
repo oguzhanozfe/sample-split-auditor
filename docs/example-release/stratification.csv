@@ -1,0 +1,7 @@
+split,label,assigned_samples,target_count
+test,ready,1,1.0
+test,review,0,0.4
+train,ready,2,3.0
+train,review,1,1.2
+validation,ready,0,1.0
+validation,review,1,0.4

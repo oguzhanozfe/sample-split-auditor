@@ -1,0 +1,51 @@
+{
+  "targets": {
+    "train": 0.6,
+    "validation": 0.2,
+    "test": 0.2
+  },
+  "samples": [
+    {
+      "id": "a01",
+      "group": "actor-a",
+      "label": "ready",
+      "split": "train"
+    },
+    {
+      "id": "a02",
+      "group": "actor-a",
+      "label": "review",
+      "split": "test"
+    },
+    {
+      "id": "b01",
+      "group": "actor-b",
+      "label": "ready",
+      "split": "train"
+    },
+    {
+      "id": "c01",
+      "group": "actor-c",
+      "label": "ready",
+      "split": "validation"
+    },
+    {
+      "id": "c02",
+      "group": "actor-c",
+      "label": "ready",
+      "split": "train"
+    },
+    {
+      "id": "d01",
+      "group": "actor-d",
+      "label": "review",
+      "split": "validation"
+    },
+    {
+      "id": "e01",
+      "group": "actor-e",
+      "label": "ready",
+      "split": "test"
+    }
+  ]
+}

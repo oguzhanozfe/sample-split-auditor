@@ -1,0 +1,25 @@
+{
+  "action": "Keep group in one split",
+  "id": "assign:7:actor-a:train",
+  "linked_source_records": [
+    "a01",
+    "a02"
+  ],
+  "choices": {
+    "assign:7:actor-a:train": ""
+  },
+  "artifacts": {
+    "split-manifest.csv": {
+      "sha256": "1a3673013fdb584c1a6132396a1b63ed59461dbc424d6983271dbdb0bc674135",
+      "changed_by_approval": true
+    },
+    "stratification.csv": {
+      "sha256": "067ea08b30c7940348ed796dbfad04d72c3565db669809d7e4d2d8d91585f6ee",
+      "changed_by_approval": true
+    },
+    "quarantined-groups.json": {
+      "sha256": "6f6180c5054ab10fff9b0d391503346998abf00710a99c82304322e6e56c6cdd",
+      "changed_by_approval": true
+    }
+  }
+}

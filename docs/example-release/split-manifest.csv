@@ -1,0 +1,8 @@
+id,group,label,original_split,split
+a01,actor-a,ready,train,train
+a02,actor-a,review,test,train
+b01,actor-b,ready,train,train
+c01,actor-c,ready,validation,quarantine
+c02,actor-c,ready,train,quarantine
+d01,actor-d,review,validation,validation
+e01,actor-e,ready,test,test
